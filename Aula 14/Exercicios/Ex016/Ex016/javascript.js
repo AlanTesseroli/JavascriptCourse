@@ -25,7 +25,7 @@ function verificar(){
         }
     }
 
-    res.innerHTML += 'FIM' 
+    res.innerHTML += 'FIM'
 }
 
 function reiniciar(){
