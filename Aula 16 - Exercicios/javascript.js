@@ -22,7 +22,10 @@ function tabuada(){
 
                 document.getElementById('fim').onclick = function(){
                     res.innerHTML += `Ao todo, temos ${lista.length} números` 
-                    res.innerHTML = `O maior valor foi ${lista.max()}`
+                    res.innerHTML += `O maior valor foi `
+                    res.innerHTML += `O menor valor foi `
+                    res.innerHTML += `Somando os valores temos `
+                    res.innerHTML += `A média dos valores digitados é  `
                 }
 
 
